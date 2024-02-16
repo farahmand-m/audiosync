@@ -1,4 +1,4 @@
-# AudioSync
+# SyncAudio
 
 This is a simple tool to synchronize audio files. The tool is based on Allison Deal's [algorithm](https://github.com/allisonnicoledeal/VideoSync).
 
@@ -7,20 +7,20 @@ This is a simple tool to synchronize audio files. The tool is based on Allison D
 ## Installation
 
 ```bash
-pip install audiosync
+pip install syncaudio
 ```
 
 ## Usage
 
 ```bash
-audiosync audio1.wav audio2.wav
+syncaudio audio1.wav audio2.wav
 ```
 
 ## API
 
 ```python
-from audiosync import synchronize
-from audiosync import read_audio
+from syncaudio import synchronize
+from syncaudio import read_audio
 
 self = read_audio('audio1.wav')
 other = read_audio('audio2.wav')
